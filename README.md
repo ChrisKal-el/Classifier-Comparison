@@ -228,7 +228,7 @@ ImageProcess(input_file6)
 ```
 Here is an example of how the images should appear.
 [insert image]
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/ResNetpics.PNG?raw=true)
 
 #### Residual Network
 Load the ResNet modules and instantiate the pre-trained ResNet50 model.
