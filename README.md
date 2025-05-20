@@ -101,7 +101,7 @@ def show_attention_overlay(image_tensor, attn_map, patch_size=16, alpha=0.6):
     plt.show()
 ```
 Load the vision transformer function
-```
+```python
 #Vision Transformer
 import torch
 import torch.nn as nn
@@ -227,7 +227,7 @@ ImageProcess(input_file5)
 ImageProcess(input_file6)
 ```
 Here is an example of how the images should appear.
-![alt text]([https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/ResNetpics.PNG?raw=true](https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/ViTpics.PNG?raw=true))
+![alt text]([https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/ViTpics.PNG?raw=true)
 
 #### Residual Network
 Load the ResNet modules and instantiate the pre-trained ResNet50 model.
