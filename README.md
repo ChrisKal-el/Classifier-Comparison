@@ -227,8 +227,7 @@ ImageProcess(input_file5)
 ImageProcess(input_file6)
 ```
 Here is an example of how the images should appear.
-[insert image]
-![alt text](https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/ResNetpics.PNG?raw=true)
+![alt text]([https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/ResNetpics.PNG?raw=true](https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/ViTpics.PNG?raw=true))
 
 #### Residual Network
 Load the ResNet modules and instantiate the pre-trained ResNet50 model.
@@ -312,6 +311,8 @@ ImageProcess2(input_file5)
 ImageProcess2(input_file6)
 ```
 Here is an example of the activation map visualized using GradCAM for several images.
+![alt text](https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/ResNetpics.PNG?raw=true)
+
+Special Thanks to the University of New Mexico ECE and CS departments
 
 
- version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
