@@ -23,16 +23,22 @@ Install the modules needed
 ```
 Import the images.
 
-In this example, they are currently set to import from a google drive, but with some alteration, links or arrays of loaded images from a local drive can be substituted in.
+In this example, they are currently set to import from this local github image folder, but with some alteration, links or arrays of loaded images from a local drive can be substituted in.
 ```python
-from google.colab import drive
-drive.mount('/content/drive',force_remount=True)
-input_file = '/content/drive/My Drive/Colab Notebooks/Lab3/cutegoat.jpg'
-input_file2 = '/content/drive/My Drive/Colab Notebooks/Lab3/catpic.jpg'
-input_file3 = '/content/drive/My Drive/Colab Notebooks/Lab3/guppynotreally.jpg'
-input_file4 = '/content/drive/My Drive/Colab Notebooks/Lab3/womentour.jpg'
-input_file5 = '/content/drive/My Drive/Colab Notebooks/Lab3/titanic.jpg'
-input_file6 = '/content/drive/My Drive/Colab Notebooks/Lab3/alien.jpg'
+!mkdir -p /Kalelcomparison/images
+!cd /Kalelcomparison/images
+!wget https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/raw/cutegoat.jpg -P /Kalelcomparison/images/
+!wget https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/raw/catpic.jpg -P /Kalelcomparison/images/
+!wget https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/raw/guppynotreally.jpg -P /Kalelcomparison/images/
+!wget https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/raw/womentour.jpg -P /Kalelcomparison/images/
+!wget https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/raw/titanic.jpg -P /Kalelcomparison/images/
+!wget https://github.com/ChrisKal-el/Classifier-Comparison/blob/main/images/raw/alien.jpg -P /Kalelcomparison/images/
+input_file = 'cutegoat.jpg'
+input_file2 = 'catpic.jpg'
+input_file3 = 'guppynotreally.jpg'
+input_file4 = 'womentour.jpg'
+input_file5 = 'titanic.jpg'
+input_file6 = 'alien.jpg'
 ```
 #### Visual Transformer
 Define the functions used for visualizing the attention maps in the visual transformer.  There are two functions: one for visualizing the attention maps for each layer of the model, and the other for overlaying the final layer's attention map on the image.
